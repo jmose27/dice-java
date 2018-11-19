@@ -17,3 +17,10 @@
 1. mkdir <name of develop folder>
 2.  cd <name of develop folder>
 3. git clone git@github.com:jmose27/dice-java.git
+
+
+## TO DO: 
+1. what's the diff between public private protected
+2. what is a class
+3. How to create and call a class
+4. 
