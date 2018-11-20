@@ -19,8 +19,23 @@
 3. git clone git@github.com:jmose27/dice-java.git
 
 
-## TO DO: 
+## install and setup javac
+1. Download and install [[jdk-11.1]] ( https://download.oracle.com/otn-pub/java/jdk/11.0.1+13/90cf5d8f270a4347a95050320eef3fb7/jdk-11.0.1_windows-x64_bin.exe)
+2. set the PATH variable on windows:
+3. Select Control Panel and then System.
+4. Click Advanced and then Environment Variables.
+5. Select PATH
+6. Edit
+7. New
+8. Value <C:\Program Files\Java\jdk-11.0.1\bin>
+9. Close and reopen git bash
+10. Test javac `javac --version`
+11. Expected output `javac 11.0.1`
+
+
+
+## TO DO:
 1. what's the diff between public private protected
 2. what is a class
 3. How to create and call a class
-4. 
+4.
