@@ -1,0 +1,165 @@
+COMMANDS SAMPLES
+
+****** Commit README.md ***********
+
+Anns-MacBook-Pro:dice-java monarch$ git add .
+Anns-MacBook-Pro:dice-java monarch$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   README.md
+
+Anns-MacBook-Pro:dice-java monarch$ git commit -am "updated readme for instructions for next week"
+[master 92d82fd] updated readme for instructions for next week
+ 1 file changed, 7 insertions(+)
+Anns-MacBook-Pro:dice-java monarch$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 410 bytes | 410.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:jmose27/dice-java.git
+   713b4c9..92d82fd  master -> master
+Anns-MacBook-Pro:dice-java monarch$ 
+
+***** END Commit README.md **********
+
+
+
+******* RANDOMIZER ***********
+
+
+******* COMMITTING NEW BRANCH TO MASTER IN GIT***********
+
+
+Anns-MacBook-Pro:KrinKodes monarch$ git branch
+* master
+Anns-MacBook-Pro:KrinKodes monarch$ git checkout -b KrinBranch
+M	.DS_Store
+A	::java Classes and Objects
+A	COMMANDS SAMPLES
+A	Cheeses.class
+A	Cheeses.java
+A	Cheeses3.class
+A	Cheeses3.java
+A	Circles.class
+A	Circles.java
+A	Circles2.java
+M	D6diceroller.java
+A	Dice.java
+A	Diceroller.java
+A	Distance.class
+A	Distance.java
+A	Dog.class
+A	Dog.java
+D	README.md
+A	dice-java
+A	java Classes and Objects
+A	javaclassesandobjects.java
+Switched to a new branch 'KrinBranch'
+Anns-MacBook-Pro:KrinKodes monarch$ git add .
+Anns-MacBook-Pro:KrinKodes monarch$ git status
+On branch KrinBranch
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   .DS_Store
+	new file:   ::java Classes and Objects
+	new file:   COMMANDS SAMPLES
+	new file:   Cheeses.class
+	new file:   Cheeses.java
+	new file:   Cheeses3.class
+	new file:   Cheeses3.java
+	new file:   Circles.class
+	new file:   Circles.java
+	new file:   Circles2.java
+	modified:   D6diceroller.java
+	new file:   Dice.class
+	new file:   Dice.java
+	new file:   Dice2.java
+	new file:   Diceroller.java
+	new file:   Distance.class
+	new file:   Distance.java
+	new file:   Dog.class
+	new file:   Dog.java
+	deleted:    README.md
+	new file:   Randomnum.class
+	new file:   Randomnum.java
+	new file:   XCode Playground Ann's.playground/Contents.swift
+	new file:   XCode Playground Ann's.playground/contents.xcplayground
+	new file:   XCode Playground Ann's.playground/playground.xcworkspace/contents.xcworkspacedata
+	new file:   XCode Playground Ann's.playground/playground.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+	new file:   XCode Playground Ann's.playground/timeline.xctimeline
+	new file:   dice-java
+	new file:   java Classes and Objects
+	new file:   javaclassesandobjects.java
+	new file:   rolldice.class
+	new file:   rolldice.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	modified:   dice-java (modified content)
+
+Anns-MacBook-Pro:KrinKodes monarch$ git commit -am open "Krin's commit"
+fatal: Paths with -a does not make sense.
+Anns-MacBook-Pro:KrinKodes monarch$ git commit -am "Krin's commit"
+[KrinBranch 6bd87f3] Krin's commit
+ 32 files changed, 618 insertions(+), 1 deletion(-)
+ create mode 100644 ::java Classes and Objects
+ create mode 100644 COMMANDS SAMPLES
+ create mode 100644 Cheeses.class
+ create mode 100644 Cheeses.java
+ create mode 100644 Cheeses3.class
+ create mode 100644 Cheeses3.java
+ create mode 100644 Circles.class
+ create mode 100644 Circles.java
+ create mode 100644 Circles2.java
+ create mode 100644 Dice.class
+ create mode 100644 Dice.java
+ create mode 100644 Dice2.java
+ create mode 100644 Diceroller.java
+ create mode 100644 Distance.class
+ create mode 100644 Distance.java
+ create mode 100644 Dog.class
+ create mode 100644 Dog.java
+ delete mode 100644 README.md
+ create mode 100644 Randomnum.class
+ create mode 100644 Randomnum.java
+ create mode 100644 XCode Playground Ann's.playground/Contents.swift
+ create mode 100644 XCode Playground Ann's.playground/contents.xcplayground
+ create mode 100644 XCode Playground Ann's.playground/playground.xcworkspace/contents.xcworkspacedata
+ create mode 100644 XCode Playground Ann's.playground/playground.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ create mode 100644 XCode Playground Ann's.playground/timeline.xctimeline
+ create mode 160000 dice-java
+ create mode 100644 java Classes and Objects
+ create mode 100644 javaclassesandobjects.java
+ create mode 100644 rolldice.class
+ create mode 100644 rolldice.java
+Anns-MacBook-Pro:KrinKodes monarch$ git push origin KrinBranch
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Anns-MacBook-Pro:KrinKodes monarch$ git branch
+* KrinBranch
+  master
+Anns-MacBook-Pro:KrinKodes monarch$ git status
+On branch KrinBranch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	modified:   dice-java (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Anns-MacBook-Pro:KrinKodes monarch$ 
+
