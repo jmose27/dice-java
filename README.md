@@ -3,7 +3,7 @@
 2. sudo apt update
 3. sudo apt install oracle-java11-installer
 4. java --version #verify version 11
-
+#test
 ## create ssh key and add it to git
 
 1. ssh-keygencat ~/.ssh/id_rsa.pub
